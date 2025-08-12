@@ -8,6 +8,7 @@ const processPayloadFiles = async (dir) => {
     throw new Error("Please provide payload folder path");
   }
 
+  
   const absoluteDir = path.resolve(dir);
   const files = fs.readdirSync(absoluteDir);
 
